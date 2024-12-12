@@ -6,6 +6,7 @@ public class Nomor1 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
+        
         System.out.print("Masukkan alas segitiga: ");
         double alas = input.nextDouble();
 
@@ -21,11 +22,8 @@ public class Nomor1 {
         fizzBuzz(N);
 
         input.close();
-        /* Pekerjaan anda berakhir sini */
 
-        System.out.println(Nomor1.class.getDeclaredMethods().length); 
-    }
-    public static double hitungLuasSegitiga(double alas, double tinggi) {
+          public static double hitungLuasSegitiga(double alas, double tinggi) {
         return 0.5 * alas * tinggi;
     }
 
@@ -45,3 +43,8 @@ public class Nomor1 {
         System.out.println();
     }
 }
+        /* Pekerjaan anda berakhir sini */
+
+        System.out.println(Nomor1.class.getDeclaredMethods().length); 
+    }
+  
